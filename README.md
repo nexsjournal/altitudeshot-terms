@@ -4,9 +4,9 @@
 
 ## 在线访问
 
-- 网站地址：https://lextellsyou.gitee.io/altitudeshot-terms/
-- 隐私政策：https://lextellsyou.gitee.io/altitudeshot-terms/privacy-policy.html
-- 用户协议：https://lextellsyou.gitee.io/altitudeshot-terms/terms-of-service.html
+- 网站地址：https://nexsjournal.github.io/altitudeshot-terms/
+- 隐私政策：https://nexsjournal.github.io/altitudeshot-terms/privacy-policy.html
+- 用户协议：https://nexsjournal.github.io/altitudeshot-terms/terms-of-service.html
 
 ## 许可
 
