@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>实时海拔计 - 法律文档</title>
+    <title>AltitudeNow - Legal Documents</title>
     <style>
         * {
             margin: 0;
@@ -22,6 +22,21 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
+        }
+
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        .lang-switch a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        .lang-switch a:hover {
+            text-decoration: underline;
         }
         
         header {
@@ -97,29 +112,6 @@
         footer a:hover {
             text-decoration: underline;
         }
-
-        .lang-switch {
-            text-align: right;
-            margin-bottom: 20px;
-            font-size: 15px;
-        }
-
-        .lang-switch a {
-            color: #0071e3;
-            text-decoration: none;
-        }
-
-        .lang-switch a:hover {
-            text-decoration: underline;
-        }
-
-        .section-title {
-            font-size: 24px;
-            font-weight: 600;
-            color: #1d1d1f;
-            margin-bottom: 24px;
-            text-align: center;
-        }
         
         @media (max-width: 768px) {
             h1 {
@@ -138,31 +130,13 @@
 </head>
 <body>
     <div class="container">
-        <p class="lang-switch">中文 · <a href="index-en.html">English</a></p>
+        <p class="lang-switch"><a href="index.html">中文</a> · English</p>
 
         <header>
-            <h1>实时海拔计</h1>
-            <p class="subtitle">法律文档与隐私政策</p>
+            <h1>AltitudeNow</h1>
+            <p class="subtitle">Legal Documents &amp; Privacy Policy</p>
         </header>
-
-        <p class="section-title">中文</p>
         
-        <div class="cards">
-            <a href="privacy-policy.html" class="card">
-                <div class="card-icon">🔒</div>
-                <h2>隐私政策</h2>
-                <p>了解我们如何收集、使用和保护您的个人信息</p>
-            </a>
-            
-            <a href="terms-of-service.html" class="card">
-                <div class="card-icon">📋</div>
-                <h2>用户协议</h2>
-                <p>使用实时海拔计应用的条款和条件</p>
-            </a>
-        </div>
-
-        <p class="section-title">English</p>
-
         <div class="cards">
             <a href="privacy-policy-en.html" class="card">
                 <div class="card-icon">🔒</div>
@@ -178,9 +152,9 @@
         </div>
         
         <footer>
-            <p>最后更新：2026 年 5 月 27 日</p>
+            <p>Last updated: May 27, 2026</p>
             <p style="margin-top: 12px;">
-                <a href="https://github.com/nexsjournal/altitudeshot-terms" target="_blank">GitHub 仓库</a>
+                <a href="https://github.com/nexsjournal/altitudeshot-terms" target="_blank">GitHub Repository</a>
             </p>
         </footer>
     </div>
