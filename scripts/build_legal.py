@@ -361,6 +361,22 @@ def main() -> None:
             "including the Privacy Policy": 'including the <a href="privacy-policy-en.html">Privacy Policy</a>',
         },
     )
+    build_page(
+        ROOT / "隐私政策-鸿蒙.md",
+        ROOT / "privacy-policy-harmony.html",
+        lang="zh-CN",
+        title="隐私政策 - 实时海拔计",
+        lang_switch='中文 · <a href="privacy-policy-harmony-en.html">English</a>',
+        date_labels=("生效日期：", "最后更新："),
+    )
+    build_page(
+        ROOT / "privacy-policy-harmony-en.md",
+        ROOT / "privacy-policy-harmony-en.html",
+        lang="en",
+        title="Privacy Policy - AltitudeNow",
+        lang_switch='<a href="privacy-policy-harmony.html">中文</a> · English',
+        date_labels=("Effective Date: ", "Last Updated: "),
+    )
 
 
 if __name__ == "__main__":
