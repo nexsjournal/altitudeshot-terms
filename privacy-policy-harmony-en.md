@@ -4,13 +4,15 @@
 
 **Last Updated: September 14, 2026**
 
+**Developer: Xi'an Yunjian Xingyu Technology Co., Ltd. (西安云间星语科技有限公司)**
+
 ---
 
 ## Introduction
 
 Welcome to AltitudeNow!
 
-This Privacy Policy applies to the AltitudeNow app and related services you use (the "App"). The App is distributed through Huawei AppGallery, runs on HarmonyOS NEXT, and may use system and platform capabilities such as Location Kit, Map Kit, Camera Kit, and IAP Kit.
+This Privacy Policy applies to the AltitudeNow app and related services you use (the "App"). The developer of the App is **Xi'an Yunjian Xingyu Technology Co., Ltd. (西安云间星语科技有限公司)**. The App is distributed through Huawei AppGallery, runs on HarmonyOS NEXT, and may use system and platform capabilities such as Location Kit, Map Kit, Camera Kit, and IAP Kit.
 
 We understand that your privacy matters. We are committed to handling your information in a transparent and restrained manner, and to keeping your data on your device whenever possible. This Privacy Policy is designed to help you understand:
 
@@ -318,6 +320,8 @@ Continued use of the App means you accept the updated Privacy Policy.
 ## 10. Contact Us
 
 If you have any questions, comments, or complaints about this Privacy Policy, please contact us:
+
+**Developer**: Xi'an Yunjian Xingyu Technology Co., Ltd. (西安云间星语科技有限公司)
 
 **Email**: tenthproducts@zohomail.cn
 

@@ -142,7 +142,9 @@ def should_skip_line(stripped: str) -> bool:
         return True
     if stripped.startswith("# "):
         return True
-    if re.fullmatch(r"\*\*(生效日期|最后更新|Effective Date|Last Updated)：.+?\*\*", stripped):
+    if re.fullmatch(r"\*\*(生效日期|最后更新|Effective Date|Last Updated)[:：].+?\*\*", stripped):
+        return True
+    if re.fullmatch(r"\*\*(开发者|Developer)[:：].+?\*\*", stripped):
         return True
     return False
 
@@ -274,6 +276,14 @@ def extract_dates(md: str, lang: str) -> tuple[str, str]:
     return eff.group(1), upd.group(1)
 
 
+def extract_developer(md: str, lang: str) -> str | None:
+    if lang.startswith("zh"):
+        m = re.search(r"\*\*开发者：(.+?)\*\*", md)
+    else:
+        m = re.search(r"\*\*Developer: (.+?)\*\*", md)
+    return m.group(1) if m else None
+
+
 def build_page(
     md_path: Path,
     out_path: Path,
@@ -283,10 +293,12 @@ def build_page(
     lang_switch: str,
     date_labels: tuple[str, str],
     body_replacements: dict[str, str] | None = None,
+    developer_label: str | None = None,
 ) -> None:
     md = md_path.read_text(encoding="utf-8")
     h1 = re.search(r"^# (.+)$", md, re.M).group(1)
     effective, updated = extract_dates(md, lang)
+    developer = extract_developer(md, lang)
     body = md_to_body(md)
     if body_replacements:
         for old, new in body_replacements.items():
@@ -294,8 +306,11 @@ def build_page(
 
     date_html = (
         f'<p class="date"><strong>{date_labels[0]}{effective}</strong><br>'
-        f"<strong>{date_labels[1]}{updated}</strong></p>"
+        f"<strong>{date_labels[1]}{updated}</strong>"
     )
+    if developer and developer_label:
+        date_html += f"<br><strong>{developer_label}{developer}</strong>"
+    date_html += "</p>"
 
     html = f"""<!DOCTYPE html>
 <html lang="{lang}">
@@ -368,6 +383,7 @@ def main() -> None:
         title="隐私政策 - 实时海拔计",
         lang_switch='中文 · <a href="privacy-policy-harmony-en.html">English</a>',
         date_labels=("生效日期：", "最后更新："),
+        developer_label="开发者：",
     )
     build_page(
         ROOT / "privacy-policy-harmony-en.md",
@@ -376,6 +392,7 @@ def main() -> None:
         title="Privacy Policy - AltitudeNow",
         lang_switch='<a href="privacy-policy-harmony.html">中文</a> · English',
         date_labels=("Effective Date: ", "Last Updated: "),
+        developer_label="Developer: ",
     )
     build_page(
         ROOT / "隐私政策-小程序.md",
