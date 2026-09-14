@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AltitudeNow</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px 20px 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+        }
+
+        .date {
+            color: #6e6e73;
+            font-size: 17px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 21px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 30px;
+            margin-bottom: 16px;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 17px;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #d2d2d7;
+            margin: 40px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+        }
+
+        th, td {
+            border: 1px solid #d2d2d7;
+            padding: 12px;
+            text-align: left;
+            font-size: 17px;
+        }
+
+        th {
+            background: #f5f5f7;
+            font-weight: 600;
+        }
+
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        .lang-switch a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 32px; }
+            h2 { font-size: 24px; }
+            h3 { font-size: 19px; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <p class="lang-switch"><a href="privacy-policy-miniprogram.html">中文</a> · English</p>
+            <h1>AltitudeNow Privacy Policy</h1>
+            <p class="date"><strong>Effective Date: September 14, 2026</strong><br><strong>Last Updated: September 14, 2026</strong></p>
+            <p><strong>Effective Date: September 14, 2026</strong></p>
+            <p><strong>Last Updated: September 14, 2026</strong></p>
+            <h2>Introduction</h2>
+            <p>Welcome to AltitudeNow!</p>
+            <p>This Privacy Policy applies <strong>only</strong> to the AltitudeNow service running as a <strong>WeChat Mini Program</strong> (the "Mini Program" or "Service"). For iOS, Android, HarmonyOS, and other platform versions, please refer to the corresponding privacy policy for that platform.</p>
+            <p>We understand that your privacy matters. We are committed to handling your information in a transparent and restrained manner, and to keeping your data on your device whenever possible. This Privacy Policy is designed to help you understand:</p>
+            <ul>
+            <li>What information we collect
+            </li>
+            <li>How we use that information
+            </li>
+            <li>Your control over your information
+            </li>
+            <li>How we protect your information
+            </li>
+            </ul>
+            <p>Please read this Privacy Policy carefully. By using the Mini Program, you agree to the practices described in this policy. You must also comply with WeChat Mini Program privacy guidelines and related platform rules.</p>
+            <h2>1. Information We Collect</h2>
+            <h3>1.1 Information We Collect or Process</h3>
+            <p>This Mini Program processes data on a "local-first, minimum necessary" basis. We may collect or process the following information:</p>
+            <h4>1.1.1 Information You Provide or That Is Generated Through Use</h4>
+            <ul>
+            <li><strong>Location and altitude information</strong>: After you grant WeChat location permission (`scope.userLocation`), we use APIs such as `wx.getLocation` / `wx.startLocationUpdate` to read GPS coordinates, altitude (if supported by the device), accuracy, and related data to display real-time altitude, resolve place names, generate summit cards, compute session activity metrics (distance / elevation gain / duration), and display the Summit Passport
+            </li>
+            <li><strong>Photos and images</strong>: When you use the summit camera (`<camera>` component) or mark an arrival with a theme background Pin, the Mini Program captures or generates images; summit cards may include your photos plus overlaid text and graphics
+            </li>
+            <li><strong>Arrival record data</strong>: Including capture or save time, altitude, latitude and longitude, place text, selected template, activity metrics (such as distance, elevation gain, and duration), and local image file paths
+            </li>
+            <li><strong>Summit Passport data</strong>: Visit point information (coordinates, etc.) aggregated on your device from local summit records for map Pin display; this data is derived from on-device records and is not uploaded to our own servers by default
+            </li>
+            <li><strong>Mini Program settings</strong>: Such as altitude units (meters/feet), language preference, haptic feedback toggle, summit theme colors, and other preferences stored on your device
+            </li>
+            </ul>
+            <h4>1.1.2 Automatically Collected Information</h4>
+            <ul>
+            <li><strong>Device and sensor information</strong>: Features such as the compass may read device orientation sensor data (for example via `wx.startCompass`); such data is processed locally and is not uploaded to our servers by default. The current version generally does not rely on a barometer; if related displays are added later, this policy will be updated
+            </li>
+            <li><strong>Basic runtime information</strong>: To keep the Mini Program running properly, we may obtain basic technical information through WeChat interfaces such as system type, base library version, Mini Program version, and language/region settings (for compatibility checks and bug fixes, and not to identify a specific natural person)
+            </li>
+            <li><strong>WeChat platform identifiers</strong>: If cloud development or cloud functions are used (for example as a reverse-geocoding proxy), WeChat may provide technical identifiers needed for the session (such as openid for calling cloud functions); we <strong>do not</strong> use them to build advertising profiles, and we <strong>do not require</strong> authorization of avatar, nickname, or similar user profile information
+            </li>
+            </ul>
+            <h4>1.1.3 Information Processed Over the Network (Not Stored on Our Own Business Servers by Default)</h4>
+            <p>In the following scenarios, some data may leave your device, but <strong>we do not use it to build user profiles on our own servers or to store your personal movement history long term</strong>:</p>
+            <ul>
+            <li><strong>Reverse geocoding</strong>: To convert coordinates into place names, latitude and longitude may be forwarded via a WeChat cloud function to geocoding APIs such as <strong>Tencent Location Services</strong>; this processing is governed by Tencent's and WeChat's privacy policies; the cloud function acts as a proxy with necessary short-term caching and is not intended for long-term retention of personal movement profiles
+            </li>
+            <li><strong>Map services</strong>: Summit Passport and related features may use the WeChat `<map>` component (Tencent Map capabilities); during map loading your device or the WeChat client may communicate with map services (such as map tile requests), which may involve approximate location information
+            </li>
+            <li><strong>Weather queries (if enabled later)</strong>: If a future version integrates third-party weather data, requests typically contain only approximate latitude and longitude and necessary query parameters; this policy will be updated before such features go live
+            </li>
+            </ul>
+            <h3>1.2 Information We Do Not Collect</h3>
+            <p>Except when you contact us directly, we <strong>do not proactively collect</strong> the following:</p>
+            <ul>
+            <li>Your name, national ID number, bank account details, or other strong identity identifiers
+            </li>
+            <li>Your contacts, SMS messages, or call logs
+            </li>
+            <li>Your WeChat Pay password or other account credentials
+            </li>
+            <li>Advertising identifiers used for cross-app tracking (this Mini Program is not designed for ad tracking)
+            </li>
+            <li><strong>Track recording data</strong>: This Mini Program does <strong>not</strong> provide track recording, track record lists, or continuous background track location
+            </li>
+            <li><strong>Payment and subscription information</strong>: The current version does <strong>not</strong> integrate membership subscriptions or in-app payments and does not collect payment card numbers or other financial information
+            </li>
+            <li>A separate self-built account or independent cloud business data backup (the current version requires no separate registration; summit records are stored in the local WeChat Mini Program storage by default)
+            </li>
+            </ul>
+            <h2>2. How We Use Information</h2>
+            <h3>2.1 How We Use Your Information</h3>
+            <p>Information we collect or process is used only for the following purposes:</p>
+            <h4>2.1.1 Providing Core Features</h4>
+            <ul>
+            <li><strong>Real-time altitude and place display</strong>: Using location and altitude data to show your current status on the summit screen
+            </li>
+            <li><strong>Compass (if available)</strong>: Displaying bearing, latitude and longitude, and current altitude
+            </li>
+            <li><strong>Summit camera and card generation</strong>: Combining photos or theme backgrounds with altitude, place, time, and other information into shareable cards (the current version does not force a watermark by default)
+            </li>
+            <li><strong>Arrival records</strong>: Saving, displaying, and managing your historical summit records locally on your device
+            </li>
+            <li><strong>Summit Passport</strong>: Aggregating and displaying Pins for places you have visited based on local summit records
+            </li>
+            <li><strong>Export and sharing</strong>: Saving cards to the system photo library when authorized, or letting you choose recipients through WeChat sharing
+            </li>
+            <li><strong>Settings and units</strong>: Remembering your units, language, and related preferences
+            </li>
+            </ul>
+            <h4>2.1.2 Improving the Service Experience</h4>
+            <ul>
+            <li><strong>Performance and compatibility</strong>: Analyzing necessary diagnostic and version information to improve stability
+            </li>
+            <li><strong>Bug fixes</strong>: Collecting necessary diagnostic information to resolve defects quickly
+            </li>
+            <li><strong>Feature improvement</strong>: Understanding feature usage (if anonymous analytics services are integrated in the future, this policy will be updated accordingly)
+            </li>
+            </ul>
+            <h3>2.2 How We Will Not Use Your Information</h3>
+            <p>We promise that we will <strong>not</strong>:</p>
+            <ul>
+            <li>Sell, rent, or trade your personal information to third parties
+            </li>
+            <li>Use your arrival records or photos for unauthorized advertising
+            </li>
+            <li>Share personally identifiable information with other companies or organizations (except as required by law or with your explicit consent)
+            </li>
+            <li>Use your data for purposes not described in this policy without notice
+            </li>
+            </ul>
+            <h2>3. Information Storage</h2>
+            <h3>3.1 Local Storage</h3>
+            <p>This Mini Program uses a <strong>local-first</strong> data storage strategy:</p>
+            <ul>
+            <li><strong>Arrival records and related metadata</strong> are stored in WeChat Mini Program local storage (such as `wx.setStorage`)
+            </li>
+            <li><strong>Summit card images</strong> are saved in the Mini Program user file directory (such as `wx.env.USER_DATA_PATH`) and/or in the system photo library if you choose to save them there
+            </li>
+            <li><strong>Settings and cache</strong> (such as recent geocoding results) are stored on your device
+            </li>
+            <li><strong>Our own business servers do not store</strong> your arrival records, photos, or complete location history by default
+            </li>
+            </ul>
+            <h3>3.2 Cloud Functions and Optional Cloud Development</h3>
+            <p>If cloud functions are enabled to proxy reverse geocoding or similar capabilities:</p>
+            <ul>
+            <li>Request parameters such as latitude and longitude may briefly pass through the cloud function runtime
+            </li>
+            <li>We may use short-term caching to reduce duplicate requests; <strong>we do not retain long-term business copies for the purpose of building your personal movement profile</strong>
+            </li>
+            <li>The cloud environment is provided by platforms such as WeChat Cloud Development and is governed by WeChat's service terms and privacy policies
+            </li>
+            </ul>
+            <h3>3.3 Cross-Device Sync</h3>
+            <p>The current version does <strong>not</strong> provide cloud sync with the iOS / Android / HarmonyOS apps. Your summit records remain in this device's Mini Program storage only and do not sync with native app versions by default.</p>
+            <h3>3.4 Data Retention</h3>
+            <ul>
+            <li><strong>Local data</strong>: Remains on your device until you delete records or clear Mini Program data / remove the Mini Program
+            </li>
+            <li><strong>Deleting data</strong>: When you delete a record, we also delete associated local images; clearing Mini Program data or deleting the Mini Program removes business data in local storage (images already saved to the photo library must be managed by you in Photos)
+            </li>
+            <li><strong>No default business backup on our servers</strong>: Because we do not store your summit records on our own business servers by default, there is generally no server-side retention period on our side
+            </li>
+            </ul>
+            <h2>4. Information Sharing</h2>
+            <h3>4.1 We Do Not Proactively Share Your Business Data</h3>
+            <p>Except as otherwise stated in this policy, we <strong>will not</strong> sell or proactively provide your arrival records, photos, or complete location history to third parties.</p>
+            <h3>4.2 Third-Party Services (WeChat Mini Program)</h3>
+            <p>To provide certain features, your device or the WeChat client may interact directly with the services below. These services have their own privacy policies:</p>
+            <h4>4.2.1 WeChat Open Capabilities and System Permissions</h4>
+            <ul>
+            <li><strong>Location (`scope.userLocation`)</strong>
+            <ul><li><strong>Purpose</strong>: Obtain GPS altitude, coordinates, and location permission status; support session activity metrics and Passport display</li><li><strong>Data processing</strong>: Used for on-device display and local records after authorization; this Mini Program does not provide continuous background track location for track recording</li><li><strong>Your control</strong>: You can manage location permission in WeChat Settings → Privacy / Mini Program permissions or in system settings, and via `wx.openSetting`</li></ul>
+            </li>
+            </ul>
+            <ul>
+            <li><strong>Camera (`scope.camera`)</strong>
+            <ul><li><strong>Purpose</strong>: Capture background photos for the summit camera; theme Pin mode may not require the camera</li><li><strong>Data processing</strong>: Images are processed on-device to generate cards; they are not automatically uploaded to our own servers without your action</li><li><strong>Your control</strong>: You can revoke camera permission at any time</li></ul>
+            </li>
+            </ul>
+            <ul>
+            <li><strong>Save to Photos (`scope.writePhotosAlbum`)</strong>
+            <ul><li><strong>Purpose</strong>: Save generated summit cards to the system photo library</li><li><strong>Data processing</strong>: Files are written to your device photo library; authorization is requested on first save as required by WeChat</li><li><strong>Your control</strong>: You can revoke photo library write permission at any time</li></ul>
+            </li>
+            </ul>
+            <ul>
+            <li><strong>Sharing</strong>
+            <ul><li><strong>Purpose</strong>: Share cards or Mini Program pages with friends or group chats through the WeChat share menu or share button</li><li><strong>Data processing</strong>: Sharing is initiated by you; content is handled by WeChat and recipients under their rules</li></ul>
+            </li>
+            </ul>
+            <ul>
+            <li><strong>Feedback and similar open capabilities (if used)</strong>
+            <ul><li><strong>Purpose</strong>: For example `button open-type="feedback"` to help you report issues</li><li><strong>Data processing</strong>: Governed by the corresponding WeChat capability rules</li></ul>
+            </li>
+            </ul>
+            <h4>4.2.2 Tencent Location / Map Related Services</h4>
+            <ul>
+            <li><strong>Reverse geocoding (Tencent Location Services, via cloud function proxy)</strong>
+            <ul><li><strong>Purpose</strong>: Convert coordinates into readable place names</li><li><strong>Data processing</strong>: Requests may include latitude and longitude; processed by Tencent Location Services, with cloud functions used to hide API keys and proxy calls</li><li><strong>Details</strong>: Please see the <a href="https://www.tencent.com/en-us/privacy-policy.html" target="_blank">Tencent Privacy Policy</a> and related WeChat documentation</li></ul>
+            </li>
+            </ul>
+            <ul>
+            <li><strong>Map component (`<map>` / Tencent Map capabilities)</strong>
+            <ul><li><strong>Purpose</strong>: Summit Passport map display and Pin visualization</li><li><strong>Data processing</strong>: Map tiles and related requests are handled by Tencent Map / WeChat map capabilities and may involve approximate location information</li></ul>
+            </li>
+            </ul>
+            <h4>4.2.3 WeChat Platform</h4>
+            <ul>
+            <li><strong>Purpose</strong>: Mini Program distribution, runtime, cloud development (if enabled), and basic security/compliance capabilities
+            </li>
+            <li><strong>Data processing</strong>: Handled by Tencent / WeChat under their privacy policies and Mini Program platform rules
+            </li>
+            </ul>
+            <h4>4.2.4 Sharing You Initiate</h4>
+            <p>When you share content to WeChat friends, group chats, or other scenes, recipients and WeChat will handle the shared content under their respective rules. Sharing is initiated by you, and we are not responsible for subsequent third-party processing.</p>
+            <h3>4.3 Legal Requirements</h3>
+            <p>In rare cases, we may be required to disclose information:</p>
+            <ul>
+            <li>To comply with laws, regulations, legal processes, or government requests
+            </li>
+            <li>To protect our rights, property, or safety
+            </li>
+            <li>To prevent fraud or security threats
+            </li>
+            <li>To protect the lawful rights and interests of users or the public
+            </li>
+            </ul>
+            <p>Because we do not store your summit records on our own business servers by default, we usually cannot provide data that has been deleted from your device or was never uploaded, even if we receive such a request; we will still cooperate within the scope permitted by law.</p>
+            <h2>5. Data Security</h2>
+            <h3>5.1 Security Measures</h3>
+            <p>We take the following measures to protect your information:</p>
+            <ul>
+            <li><strong>Local-first and sandboxing</strong>: Relying on WeChat Mini Program storage and file sandbox mechanisms, business data is kept in the Mini Program's private space
+            </li>
+            <li><strong>Minimum permissions</strong>: Requesting only necessary permissions such as location, camera, and photo library when related features are used
+            </li>
+            <li><strong>Key protection</strong>: Third-party API keys for reverse geocoding are proxied through cloud functions and are not hardcoded in the client
+            </li>
+            <li><strong>No upload of business data by default</strong>: Arrival records and photos remain on your device by default and are not routed through our own business servers
+            </li>
+            <li><strong>Secure development practices</strong>: Following WeChat Mini Program security recommendations and addressing known issues promptly
+            </li>
+            </ul>
+            <h3>5.2 Your Responsibilities</h3>
+            <p>To help protect your data, we recommend that you:</p>
+            <ul>
+            <li>Set a lock screen passcode or use biometric unlock on your phone
+            </li>
+            <li>Do not share an unlocked device that is signed in to WeChat
+            </li>
+            <li>Keep the WeChat client and operating system updated
+            </li>
+            <li>Grant Mini Program permissions carefully and review permission lists regularly in WeChat settings
+            </li>
+            <li>Before sharing cards in public, confirm whether they contain precise coordinates or place information you do not want to disclose
+            </li>
+            </ul>
+            <h3>5.3 Data Breach Notification</h3>
+            <p>Although we take reasonable measures, no system is completely secure. If a data security incident involving systems under our control occurs, we will:</p>
+            <ul>
+            <li>Investigate promptly and take remedial action
+            </li>
+            <li>Notify affected users within a reasonable time, where applicable
+            </li>
+            <li>Report to relevant regulators if required by law
+            </li>
+            </ul>
+            <h2>6. Your Rights</h2>
+            <h3>6.1 Access and Control Over Your Data</h3>
+            <p>You have control over your data:</p>
+            <ul>
+            <li><strong>View data</strong>: Review historical data in Records and Summit Passport
+            </li>
+            <li><strong>Delete data</strong>: Delete individual records through in-Mini Program actions; deletion removes local storage entries and associated images
+            </li>
+            <li><strong>Export data</strong>: Save summit cards to the photo library or export them through WeChat sharing
+            </li>
+            </ul>
+            <h3>6.2 Revoking Permissions and Privacy Authorization</h3>
+            <p>You can revoke permissions granted to this Mini Program (location, camera, photo library, etc.) at any time in WeChat or system settings. Revoking permissions may make related features unavailable or degraded (for example, without location permission, real-time altitude cannot work).</p>
+            <p>You may also manage privacy authorization for this Mini Program under WeChat Mini Program privacy guidelines; if you refuse authorization, we will only provide features that do not depend on the corresponding permissions, or explain the functional limitation.</p>
+            <h3>6.3 Deleting Data</h3>
+            <p>This Mini Program does not require a separate account registration. You can delete data by:</p>
+            <ul>
+            <li><strong>Deleting records</strong>: Deleting individual or all arrival records in the Mini Program
+            </li>
+            <li><strong>Clearing Mini Program data / deleting the Mini Program</strong>: Removes business data in local storage and the user file directory
+            </li>
+            <li><strong>Photo library content</strong>: Images saved to the system photo library must be deleted in the Photos app
+            </li>
+            </ul>
+            <h2>7. Children's Privacy</h2>
+            <p>This Mini Program is intended for general users. We do not knowingly collect personal information from children under 13.</p>
+            <p>If you are a parent or guardian and believe your child has provided us with personal information without your consent, please contact us and we will take steps to delete the relevant information.</p>
+            <h2>8. Regions and Scope</h2>
+            <p>This Service is provided through the WeChat Mini Program platform; actual availability depends on WeChat's regional openness and category review policies. If you use this Mini Program outside mainland China:</p>
+            <ul>
+            <li>Your business data is stored locally on your device (WeChat Mini Program storage) by default
+            </li>
+            <li>Tencent Location, Maps, Cloud Development, and similar services may be unavailable depending on region or account environment; related features may be hidden or degraded when unavailable
+            </li>
+            <li>We strive to follow core principles of applicable data protection laws; specific rights may vary by local law
+            </li>
+            </ul>
+            <h2>9. Changes to This Privacy Policy</h2>
+            <h3>9.1 Update Notice</h3>
+            <p>We may update this Privacy Policy from time to time to reflect:</p>
+            <ul>
+            <li>Changes in Mini Program features (such as weather, analytics services, cloud sync, etc.)
+            </li>
+            <li>Legal and regulatory requirements and WeChat platform rules
+            </li>
+            <li>User feedback and best practices
+            </li>
+            </ul>
+            <h3>9.2 How We Will Notify You</h3>
+            <p>When we make material changes to this Privacy Policy, we will:</p>
+            <ul>
+            <li>Display a notice in the Mini Program or update the privacy guidelines
+            </li>
+            <li>Update the "Last Updated" date at the top of this document
+            </li>
+            <li>Describe the changes in release notes where applicable
+            </li>
+            </ul>
+            <h3>9.3 Your Choices</h3>
+            <p>If you do not agree with the updated Privacy Policy, you may:</p>
+            <ul>
+            <li>Stop using the Mini Program
+            </li>
+            <li>Delete the Mini Program and clear related data
+            </li>
+            <li>Contact us to express your concerns
+            </li>
+            </ul>
+            <p>Continued use of the Mini Program means you accept the updated Privacy Policy.</p>
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions, comments, or complaints about this Privacy Policy, please contact us:</p>
+            <p><strong>Email</strong>: tenthproducts@zohomail.cn</p>
+            <p><strong>Response time</strong>: We will reply within 7 business days after receiving your email.</p>
+            <p>We value your feedback and are committed to addressing your privacy concerns.</p>
+            <h2>11. Governing Law</h2>
+            <p>This Privacy Policy is governed by the laws of the People's Republic of China (excluding its conflict-of-law rules).</p>
+            <p>If you have any dispute regarding our privacy practices, we encourage you to contact us first using the information above. If the dispute cannot be resolved through friendly negotiation, you agree to submit it to the competent people's court where we are located.</p>
+            <h2>12. Other Important Information</h2>
+            <h3>12.1 Data Minimization</h3>
+            <p>We follow the principle of data minimization and collect or process only information necessary to provide the service, prioritizing processing on your device.</p>
+            <h3>12.2 Transparency Commitment</h3>
+            <p>We are committed to transparency in data processing and clearly explain WeChat permission purposes, local storage, and network-related steps in this policy (including location, camera, photo library, Tencent Location/Maps, and cloud function proxies).</p>
+            <h3>12.3 Relationship to Other Platform Policies</h3>
+            <ul>
+            <li>This document's URL may be used as a standalone link in the WeChat Mini Program admin console "User Privacy Protection Guidelines" and in-app legal document settings
+            </li>
+            <li>For iOS / Android / HarmonyOS versions, please use the corresponding Privacy Policy pages on this site
+            </li>
+            <li>Product features may differ across platforms (for example, this Mini Program does not include track recording or membership subscriptions); system services and data stores remain independent
+            </li>
+            </ul>
+            <h3>12.4 User Trust</h3>
+            <p>Your trust is our most valuable asset. We will continue working to balance "summit moments worth sharing" with privacy-friendly design.</p>
+            <p><strong>Thank you for choosing AltitudeNow!</strong></p>
+            <p>We are committed to helping you record every arrival with confidence and leaving the choice of whether to share entirely up to you.</p>
+            <p style="margin-top: 20px; font-style: italic; color: #6e6e73;">The AltitudeNow development team reserves the right of final interpretation of this Privacy Policy.</p>
+    </div>
+</body>
+</html>

@@ -377,6 +377,22 @@ def main() -> None:
         lang_switch='<a href="privacy-policy-harmony.html">中文</a> · English',
         date_labels=("Effective Date: ", "Last Updated: "),
     )
+    build_page(
+        ROOT / "隐私政策-小程序.md",
+        ROOT / "privacy-policy-miniprogram.html",
+        lang="zh-CN",
+        title="隐私政策 - 实时海拔计",
+        lang_switch='中文 · <a href="privacy-policy-miniprogram-en.html">English</a>',
+        date_labels=("生效日期：", "最后更新："),
+    )
+    build_page(
+        ROOT / "privacy-policy-miniprogram-en.md",
+        ROOT / "privacy-policy-miniprogram-en.html",
+        lang="en",
+        title="Privacy Policy - AltitudeNow",
+        lang_switch='<a href="privacy-policy-miniprogram.html">中文</a> · English',
+        date_labels=("Effective Date: ", "Last Updated: "),
+    )
 
 
 if __name__ == "__main__":
