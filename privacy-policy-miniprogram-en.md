@@ -10,7 +10,7 @@
 
 Welcome to AltitudeNow!
 
-This Privacy Policy applies **only** to the AltitudeNow service running as a **WeChat Mini Program** (the "Mini Program" or "Service"). For iOS, Android, HarmonyOS, and other platform versions, please refer to the corresponding privacy policy for that platform.
+This Privacy Policy applies to the AltitudeNow service you use (the "Mini Program" or "Service"). The Service is provided as a WeChat Mini Program and may use WeChat open capabilities such as location, camera, photo library, maps, and cloud development.
 
 We understand that your privacy matters. We are committed to handling your information in a transparent and restrained manner, and to keeping your data on your device whenever possible. This Privacy Policy is designed to help you understand:
 
@@ -119,7 +119,7 @@ If cloud functions are enabled to proxy reverse geocoding or similar capabilitie
 
 ### 3.3 Cross-Device Sync
 
-The current version does **not** provide cloud sync with the iOS / Android / HarmonyOS apps. Your summit records remain in this device's Mini Program storage only and do not sync with native app versions by default.
+The current version does **not** provide cross-device cloud sync. Your summit records remain in this device's Mini Program storage by default.
 
 ### 3.4 Data Retention
 
@@ -135,7 +135,7 @@ The current version does **not** provide cloud sync with the iOS / Android / Har
 
 Except as otherwise stated in this policy, we **will not** sell or proactively provide your arrival records, photos, or complete location history to third parties.
 
-### 4.2 Third-Party Services (WeChat Mini Program)
+### 4.2 Third-Party Services
 
 To provide certain features, your device or the WeChat client may interact directly with the services below. These services have their own privacy policies:
 
@@ -265,7 +265,7 @@ If you are a parent or guardian and believe your child has provided us with pers
 
 ## 8. Regions and Scope
 
-This Service is provided through the WeChat Mini Program platform; actual availability depends on WeChat's regional openness and category review policies. If you use this Mini Program outside mainland China:
+This Service is provided as a WeChat Mini Program; actual availability depends on WeChat's regional openness and category review policies. If you use this Mini Program outside mainland China:
 
 - Your business data is stored locally on your device (WeChat Mini Program storage) by default
 - Tencent Location, Maps, Cloud Development, and similar services may be unavailable depending on region or account environment; related features may be hidden or degraded when unavailable
@@ -331,15 +331,9 @@ We follow the principle of data minimization and collect or process only informa
 
 ### 12.2 Transparency Commitment
 
-We are committed to transparency in data processing and clearly explain WeChat permission purposes, local storage, and network-related steps in this policy (including location, camera, photo library, Tencent Location/Maps, and cloud function proxies).
+We are committed to transparency in data processing and clearly explain permission purposes, local storage, and network-related steps in this policy (including location, camera, photo library, Tencent Location/Maps, and cloud function proxies).
 
-### 12.3 Relationship to Other Platform Policies
-
-- This document's URL may be used as a standalone link in the WeChat Mini Program admin console "User Privacy Protection Guidelines" and in-app legal document settings
-- For iOS / Android / HarmonyOS versions, please use the corresponding Privacy Policy pages on this site
-- Product features may differ across platforms (for example, this Mini Program does not include track recording or membership subscriptions); system services and data stores remain independent
-
-### 12.4 User Trust
+### 12.3 User Trust
 
 Your trust is our most valuable asset. We will continue working to balance "summit moments worth sharing" with privacy-friendly design.
 

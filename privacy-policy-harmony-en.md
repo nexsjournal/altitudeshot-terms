@@ -2,7 +2,7 @@
 
 **Effective Date: September 13, 2026**
 
-**Last Updated: September 13, 2026**
+**Last Updated: September 14, 2026**
 
 ---
 
@@ -10,7 +10,7 @@
 
 Welcome to AltitudeNow!
 
-This Privacy Policy applies **only** to the native AltitudeNow app distributed through Huawei AppGallery and running on **HarmonyOS NEXT** (the "App"). For iOS, Android (Google Play), and other platform versions, please refer to the corresponding privacy policy for that platform.
+This Privacy Policy applies to the AltitudeNow app and related services you use (the "App"). The App is distributed through Huawei AppGallery, runs on HarmonyOS NEXT, and may use system and platform capabilities such as Location Kit, Map Kit, Camera Kit, and IAP Kit.
 
 We understand that your privacy matters. We are committed to handling your information in a transparent and restrained manner, and to keeping your data on your device whenever possible. This Privacy Policy is designed to help you understand:
 
@@ -64,7 +64,7 @@ Except when you contact us directly, we **do not proactively collect** the follo
 - Your Huawei ID password or other account credentials
 - Advertising identifiers used for cross-app tracking (this App is not designed for ad tracking)
 - Continuous background location when you are not using related features (the App may continue location updates in the background only **while track recording is in progress** and after you authorize background location; otherwise it primarily uses "While Using the App" location)
-- Unified accounts or cloud business data backups (the current version requires no registration, and data is stored independently on your device by default; **local records and Pro entitlements in this App do not automatically sync with the iOS or Android versions**)
+- Unified accounts or cloud business data backups (the current version requires no registration, and data is stored independently on your device by default)
 
 ---
 
@@ -122,7 +122,7 @@ If you enable device system backup (such as Huawei account cloud backup or manuf
 
 ### 3.3 Cross-Device Sync
 
-The current version does **not** provide iCloud / CloudKit or cross-device cloud sync. Your summit and track records remain on this device only and do not sync with the iOS or Android versions by default.
+The current version does **not** provide iCloud / CloudKit or cross-device cloud sync. Your summit and track records remain on this device by default.
 
 ### 3.4 Data Retention
 
@@ -175,7 +175,7 @@ To provide certain features, your device may interact directly with the services
 - **IAP Kit (In-App Purchases)**
   - **Purpose**: Purchase, verification, restoration, and delivery confirmation of Pro membership subscriptions and lifetime unlocks
   - **Data processing**: Payment and subscription management are handled by Huawei; we only receive verified entitlement status and **do not collect your payment card numbers or other financial information**
-  - **Note**: Pro benefits purchased with a Huawei ID do **not** automatically transfer to Apple App Store or Google Play versions
+  - **Note**: Pro benefits are verified and restored based on the app store account and purchase channel used for the purchase
 
 - **Geocoding**
   - **Purpose**: Convert coordinates into readable place names
@@ -262,7 +262,7 @@ This App does not require account registration. You can delete data by:
 - **Deleting records**: Deleting individual or all arrival/track records in the App
 - **Deleting the App**: Uninstalling the App removes data in the app-private directory
 - **Photo library content**: Images saved to the system photo library must be deleted in the Photos app
-- **Subscription management**: Pro membership subscriptions can be canceled in your Huawei ID / AppGallery subscription settings; **Pro benefits purchased through different channels (App Store, Google Play, Huawei AppGallery) do not automatically carry over**
+- **Subscription management**: Pro membership subscriptions can be canceled in your Huawei ID / AppGallery subscription settings; entitlement restoration is based on verification results from that purchase channel
 
 ---
 
@@ -276,7 +276,7 @@ If you are a parent or guardian and believe your child has provided us with pers
 
 ## 8. Regions and Scope
 
-This App is primarily distributed through Huawei AppGallery for HarmonyOS NEXT users (actual availability depends on regional policies and Map Kit / IAP availability). If you use this App outside mainland China:
+This App is distributed through Huawei AppGallery (actual availability depends on regional policies and Map Kit / IAP availability). If you use this App outside mainland China:
 
 - Your business data is stored locally on your device by default
 - If system backup is enabled, data storage location depends on your account region and the relevant provider's service layout
@@ -343,15 +343,9 @@ We follow the principle of data minimization and collect or process only informa
 
 ### 12.2 Transparency Commitment
 
-We are committed to transparency in data processing and clearly explain HarmonyOS permission purposes, local storage, and network-related steps in this policy (including Location Kit, Map Kit, IAP Kit, and Open-Meteo).
+We are committed to transparency in data processing and clearly explain permission purposes, local storage, and network-related steps in this policy (including Location Kit, Map Kit, IAP Kit, and Open-Meteo).
 
-### 12.3 Relationship to Other Platform Policies
-
-- This document's URL may be used as a standalone link in AppGallery Connect / Huawei AppGallery
-- For iOS / Android versions, please use the corresponding Privacy Policy pages on this site
-- Product features are broadly aligned across platforms, but system services, payment channels, and data stores remain independent
-
-### 12.4 User Trust
+### 12.3 User Trust
 
 Your trust is our most valuable asset. We will continue working to balance "summit moments worth sharing" with privacy-friendly design.
 
